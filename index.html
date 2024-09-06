@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriSmart - AI-Powered Personalized Nutrition for Rwanda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-green-600 text-white p-4 fixed w-full z-50">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold flex items-center">
+                <img src="./images/nutrismartlogo.png" alt="NutriSmart Logo" class="mr-2 rounded-full w-10 h-10">
+                NutriSmart
+            </a>
+            <ul class="hidden lg:flex space-x-6 items-center">
+                <li><a href="#home" class="hover:underline">Home</a></li>
+                <li><a href="#about" class="hover:underline">About</a></li>
+                <li><a href="#features" class="hover:underline">Features</a></li>
+                <li><a href="#prototype" class="hover:underline">Prototype</a></li>
+                <li><a href="#team" class="hover:underline">Team</a></li>
+                <li><a href="#blog" class="hover:underline">Blog</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+                <li><a href="#" class="bg-white text-green-600 py-2 px-4 rounded-full hover:bg-green-100 transition duration-300">Download App</a></li>
+            </ul>
+            <button class="lg:hidden">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main class="pt-16">
+        <section id="home" class="bg-gradient-to-r from-green-500 to-blue-500 text-white py-32">
+            <div class="container mx-auto text-center px-4">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">NutriSmart: AI-Powered Personalized Nutrition</h1>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">Empowering Rwandans to prevent NCDs through smart, culturally-relevant nutrition guidance. Take control of your health with our innovative AI-powered app.</p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#" class="bg-white text-green-500 py-3 px-8 rounded-full text-lg font-semibold hover:bg-green-100 transition duration-300">Get Started</a>
+                    <a href="#features" class="border-2 border-white text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-white hover:text-green-500 transition duration-300">Learn More</a>
+                </div>
+                <div class="mt-12 text-sm bg-yellow-400 text-gray-800 p-2 rounded-lg inline-block">
+                    <i class="fas fa-info-circle mr-2"></i>NutriSmart is currently in development and testing phase.
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">About NutriSmart</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">Our Mission</h3>
+                        <p class="mb-6">To empower Rwandans with personalized, culturally-relevant nutrition guidance, leveraging AI technology to prevent non-communicable diseases and promote healthier lifestyles.</p>
+                        <h3 class="text-2xl font-semibold mb-4">Our Vision</h3>
+                        <p class="mb-6">To become the leading AI-powered nutrition platform in Africa, significantly reducing the prevalence of diet-related NCDs and improving overall health outcomes across the continent.</p>
+                    </div>
+                    <div class="relative">
+                        <img src="./images/problem.png" alt="Nutrition Problem in Rwanda" class="rounded-lg shadow-lg w-full">
+                        <div class="absolute -bottom-6 -right-6 bg-green-500 text-white p-4 rounded-lg">
+                            <p class="font-bold text-2xl">44%</p>
+                            <p>of deaths in Rwanda are due to NCDs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="company-history" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Our Journey</h2>
+                <div class="relative">
+                    <div class="border-r-2 border-green-500 absolute h-full top-0" style="left: 15px"></div>
+                    <ul class="list-none m-0 p-0">
+                        <li class="mb-8">
+                            <div class="flex items-center mb-1">
+                                <div class="bg-green-500 rounded-full h-8 w-8"></div>
+                                <div class="flex-1 ml-4 font-medium">2023 - Foundation</div>
+                            </div>
+                            <div class="ml-12">NutriSmart was founded with the vision of leveraging AI to address Rwanda's nutrition challenges.</div>
+                        </li>
+                        <li class="mb-8">
+                            <div class="flex items-center mb-1">
+                                <div class="bg-green-500 rounded-full h-8 w-8"></div>
+                                <div class="flex-1 ml-4 font-medium">2024 - Prototype Development</div>
+                            </div>
+                            <div class="ml-12">Successfully developed and tested the first prototype of the NutriSmart app.</div>
+                        </li>
+                        <li class="mb-8">
+                            <div class="flex items-center mb-1">
+                                <div class="bg-green-500 rounded-full h-8 w-8"></div>
+                                <div class="flex-1 ml-4 font-medium">2025 - Launch and Expansion</div>
+                            </div>
+                            <div class="ml-12">NutriSmart will be Officially launched in Rwanda, with plans for expansion to other East African countries.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">NutriSmart Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <img src="./images/Food2 (2).png" alt="Snap and Analyze" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <i class="fas fa-camera text-4xl text-green-500 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2">Snap and Analyze</h3>
+                        <p>Take a photo of your meal and instantly get detailed nutritional insights.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <img src="./images/recomme.png" alt="Personalized Recommendations" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <i class="fas fa-utensils text-4xl text-green-500 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2">Personalized Recommendations</h3>
+                        <p>Receive culturally-appropriate alternatives and tailored meal plans.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <img src="./images/healthtrack.png" alt="Health Tracking" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <i class="fas fa-chart-line text-4xl text-green-500 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2">Health Tracking</h3>
+                        <p>Integrate with biometric data for comprehensive health monitoring and risk assessment.</p>
+                    </div>
+                </div>
+                <div class="mt-12 text-center">
+                    <img src="./images/workflow.png" alt="NutriSmart App Workflow" class="mx-auto rounded-lg shadow-lg w-full max-w-3xl">
+                </div>
+            </div>
+        </section>
+
+        <section id="prototype" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">App Prototype</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-4">
+                        <img src="./images/proto.png" alt="NutriSmart Prototype 1" class="w-full rounded-lg shadow-lg">
+                        <img src="./images/proto2.png" alt="NutriSmart Prototype 2" class="w-full rounded-lg shadow-lg">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">Experience NutriSmart</h3>
+                        <p class="mb-6">Our intuitive interface makes it easy to track your meals, get personalized recommendations, and monitor your health progress.</p>
+                        <div class="aspect-w-16 aspect-h-9">
+                            <iframe class="w-full h-64 md:h-96 rounded-lg shadow-lg" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="mt-6">
+                            <h4 class="text-xl font-semibold mb-2">GitHub Repository</h4>
+                            <p class="mb-4">Explore our open-source code and contribute to the project:</p>
+                            <a href="https://github.com/Yvettetuyambaze/Nutrismart" target="_blank" rel="noopener noreferrer" class="bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition duration-300 inline-flex items-center">
+                                <i class="fab fa-github mr-2"></i> View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Our Team</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <img src="./images/yvette.jpg" alt="Yvette Tuyambaze" class="rounded-full mx-auto mb-4 w-48 h-48 object-cover">
+                        <h3 class="text-xl font-semibold">Yvette Tuyambaze</h3>
+                        <p class="text-gray-600">CEO & Software Developer</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="./images/valery.jpg" alt="Iradukunda Valery" class="rounded-full mx-auto mb-4 w-48 h-48 object-cover">
+                        <h3 class="text-xl font-semibold">Iradukunda Valery</h3>
+                        <p class="text-gray-600">COO & Business Development Lead</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="./images/nigena.jpg" alt="Niyigena Pacifique" class="rounded-full mx-auto mb-4 w-48 h-48 object-cover">
+                        <h3 class="text-xl font-semibold">Niyigena Pacifique</h3>
+                        <p class="text-gray-600">Chief Nutritionist</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="./images/cyiza.jpg" alt="Cyiza Uwacunguwe Vestine" class="rounded-full mx-auto mb-4 w-48 h-48 object-cover">
+                        <h3 class="text-xl font-semibold">Cyiza Uwacunguwe Vestine</h3>
+                        <p class="text-gray-600">CFO & Business Analyst</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="./images/yvone.jpg" alt="Tuyizere Yvonne" class="rounded-full mx-auto mb-4 w-48 h-48 object-cover">
+                        <h3 class="text-xl font-semibold">Tuyizere Yvonne</h3>
+                        <p class="text-gray-600">CTO & Data Scientist</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="py-20 bg-gray-100">
+            <section id="pricing" class="py-20 bg-gray-100">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Choose Your Plan</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <!-- Basic Plan -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <div class="p-6">
+                                <h3 class="text-2xl font-bold text-center mb-4">Basic</h3>
+                                <p class="text-center text-gray-600 mb-6">Free</p>
+                                <ul class="space-y-3 mb-6">
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Food recognition</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Basic nutritional information</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Daily calorie tracking</span>
+                                    </li>
+                                    <li class="flex items-center text-gray-400">
+                                        <i class="fas fa-times mr-2"></i>
+                                        <span>Personalized meal plans</span>
+                                    </li>
+                                    <li class="flex items-center text-gray-400">
+                                        <i class="fas fa-times mr-2"></i>
+                                        <span>Health coach support</span>
+                                    </li>
+                                    <li class="flex items-center text-gray-400">
+                                        <i class="fas fa-times mr-2"></i>
+                                        <span>Advanced health analytics</span>
+                                    </li>
+                                </ul>
+                                <a href="#" class="block text-center bg-green-500 text-white py-2 px-4 rounded-full hover:bg-green-600 transition duration-300">Get Started</a>
+                            </div>
+                        </div>
+    
+                        <!-- Premium Plan -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden border-2 border-green-500">
+                            <div class="p-6">
+                                <h3 class="text-2xl font-bold text-center mb-4">Premium</h3>
+                                <p class="text-center text-gray-600 mb-6">$9.99/month</p>
+                                <ul class="space-y-3 mb-6">
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>All Basic features</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Personalized meal plans</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Detailed nutrient breakdown</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Weekly health reports</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Recipe suggestions</span>
+                                    </li>
+                                    <li class="flex items-center text-gray-400">
+                                        <i class="fas fa-times mr-2"></i>
+                                        <span>Health coach support</span>
+                                    </li>
+                                </ul>
+                                <a href="#" class="block text-center bg-green-500 text-white py-2 px-4 rounded-full hover:bg-green-600 transition duration-300">Subscribe Now</a>
+                            </div>
+                        </div>
+    
+                        <!-- Business Plan -->
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <div class="p-6">
+                                <h3 class="text-2xl font-bold text-center mb-4">Business</h3>
+                                <p class="text-center text-gray-600 mb-6">Contact for pricing</p>
+                                <ul class="space-y-3 mb-6">
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>All Premium features</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Health coach support</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Advanced health analytics</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Custom integration options</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Employee wellness programs</span>
+                                    </li>
+                                    <li class="flex items-center">
+                                        <i class="fas fa-check text-green-500 mr-2"></i>
+                                        <span>Dedicated account manager</span>
+                                    </li>
+                                </ul>
+                                <a href="#" class="block text-center bg-green-500 text-white py-2 px-4 rounded-full hover:bg-green-600 transition duration-300">Contact Sales</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="blog" class="py-20 bg-white">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Latest from Our Blog</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
+                            <img src="./images/ai.jpg" alt="Blog Post 1" class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">The Role of AI in Personalized Nutrition</h3>
+                                <p class="text-gray-600 mb-4">Exploring how artificial intelligence is revolutionizing dietary recommendations...</p>
+                                <a href="#" class="text-green-500 hover:underline">Read More</a>
+                            </div>
+                        </div>
+                        <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
+                            <img src="./images/tradition.jpg" alt="Blog Post 2" class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">Traditional Rwandan Dishes: A Nutritional Breakdown</h3>
+                                <p class="text-gray-600 mb-4">Analyzing the health benefits and potential improvements of popular local cuisines...</p>
+                                <a href="#" class="text-green-500 hover:underline">Read More</a>
+                            </div>
+                        </div>
+                        <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
+                            <img src="./images/healthcare.png" alt="Blog Post 3" class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">5 Simple Steps to Prevent NCDs Through Diet</h3>
+                                <p class="text-gray-600 mb-4">Practical tips for Rwandans to improve their eating habits and reduce health risks...</p>
+                                <a href="#" class="text-green-500 hover:underline">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="faq" class="py-20 bg-gray-100">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Frequently Asked Questions</h2>
+                    <div class="space-y-6 max-w-3xl mx-auto">
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <h3 class="text-xl font-semibold mb-2">How accurate is NutriSmart's food recognition?</h3>
+                            <p>Our AI model has been trained on over 900 Rwandan dishes and achieves an accuracy rate of 95% in identifying local foods.</p>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <h3 class="text-xl font-semibold mb-2">Is my health data secure with NutriSmart?</h3>
+                            <p>Yes, we use industry-standard encryption and follow strict data protection protocols to ensure the privacy and security of all user information.</p>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <h3 class="text-xl font-semibold mb-2">Can I use NutriSmart if I have specific dietary restrictions?</h3>
+                            <p>Absolutely! NutriSmart takes into account various dietary needs, including vegetarian, vegan, gluten-free, and specific health conditions when providing recommendations.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="contact" class="py-20 bg-white">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Get in Touch</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                        <div>
+                            <h3 class="text-2xl font-semibold mb-4">Contact Information</h3>
+                            <ul class="space-y-4">
+                                <li class="flex items-center">
+                                    <i class="fas fa-map-marker-alt text-green-500 text-xl mr-4"></i>
+                                    <span>123 Innovation Street, Kigali, Rwanda</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-phone text-green-500 text-xl mr-4"></i>
+                                    <span>+250 123 456 789</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-envelope text-green-500 text-xl mr-4"></i>
+                                    <span>info@nutrismart.rw</span>
+                                </li>
+                            </ul>
+                            <div class="mt-8">
+                                <h4 class="text-xl font-semibold mb-4">Follow Us</h4>
+                                <div class="flex space-x-4">
+                                    <a href="#" class="text-green-500 hover:text-green-600"><i class="fab fa-facebook-f text-2xl"></i></a>
+                                    <a href="#" class="text-green-500 hover:text-green-600"><i class="fab fa-twitter text-2xl"></i></a>
+                                    <a href="#" class="text-green-500 hover:text-green-600"><i class="fab fa-linkedin-in text-2xl"></i></a>
+                                    <a href="#" class="text-green-500 hover:text-green-600"><i class="fab fa-instagram text-2xl"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="bg-gray-100 p-6 rounded-lg shadow-md">
+                            <div class="mb-4">
+                                <label for="name" class="block mb-2 font-semibold">Name</label>
+                                <input type="text" id="name" name="name" class="w-full p-2 border rounded" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block mb-2 font-semibold">Email</label>
+                                <input type="email" id="email" name="email" class="w-full p-2 border rounded" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="subject" class="block mb-2 font-semibold">Subject</label>
+                                <input type="text" id="subject" name="subject" class="w-full p-2 border rounded" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="block mb-2 font-semibold">Message</label>
+                                <textarea id="message" name="message" rows="4" class="w-full p-2 border rounded" required></textarea>
+                            </div>
+                            <button type="submit" class="bg-green-500 text-white py-2 px-6 rounded hover:bg-green-600 transition duration-300">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="cta" class="bg-green-600 text-white py-20">
+                <div class="container mx-auto px-4 text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Health?</h2>
+                    <p class="text-xl mb-8 max-w-2xl mx-auto">Join thousands of Rwandans who are taking control of their nutrition and preventing NCDs with NutriSmart.</p>
+                    <a href="#" class="bg-white text-green-600 py-3 px-8 rounded-full text-lg font-semibold hover:bg-green-100 transition duration-300">Download NutriSmart Now</a>
+                    <p class="mt-4 text-sm">*App is currently in development and testing phase</p>
+                </div>
+            </section>
+        </main>
+    
+        <footer class="bg-gray-800 text-white py-12">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">NutriSmart</h3>
+                        <p>Empowering Rwandans with AI-powered nutrition guidance for a healthier future.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#home" class="hover:text-green-500 transition duration-300">Home</a></li>
+                            <li><a href="#about" class="hover:text-green-500 transition duration-300">About</a></li>
+                            <li><a href="#features" class="hover:text-green-500 transition duration-300">Features</a></li>
+                            <li><a href="#prototype" class="hover:text-green-500 transition duration-300">Prototype</a></li>
+                            <li><a href="#team" class="hover:text-green-500 transition duration-300">Team</a></li>
+                            <li><a href="#blog" class="hover:text-green-500 transition duration-300">Blog</a></li>
+                            <li><a href="#contact" class="hover:text-green-500 transition duration-300">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Legal</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-green-500 transition duration-300">Terms of Service</a></li>
+                            <li><a href="#" class="hover:text-green-500 transition duration-300">Privacy Policy</a></li>
+                            <li><a href="#" class="hover:text-green-500 transition duration-300">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+                        <p class="mb-4">Stay updated with our latest features and health tips.</p>
+                        <form class="flex">
+                            <input type="email" placeholder="Your email" class="p-2 rounded-l-lg w-full" required>
+                            <button type="submit" class="bg-green-500 text-white p-2 rounded-r-lg hover:bg-green-600 transition duration-300">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="mt-8 pt-8 border-t border-gray-700 text-center">
+                    <p>&copy; 2024 NutriSmart. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    
+        <script>
+            // Add smooth scrolling to all links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+    
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+    
+            // Mobile menu toggle
+            const mobileMenuButton = document.querySelector('button');
+            const mobileMenu = document.querySelector('ul');
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        </script>
+    </body>
+    </html>
